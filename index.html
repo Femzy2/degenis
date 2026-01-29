@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Developer & Blockchain Analyst — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Degnis</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="nav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero bg-orange">
+      <div class="container hero-inner">
+        <h1>Software Developer & Blockchain Analyst</h1>
+        <p class="lead">I build reliable software and analyze blockchain data to extract actionable insights.</p>
+        <p class="cta-row">
+          <a class="btn btn-primary" href="#projects">View Work</a>
+          <a class="btn btn-outline" href="#contact">Hire Me</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>I bring together software engineering and blockchain analysis to help teams understand on-chain behavior, build resilient systems, and design data-driven strategies.</p>
+      <ul class="meta-list">
+        <li>Years: 5+</li>
+        <li>Focus: Analytics, tooling, smart-contract review</li>
+        <li>Location: Remote</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="grid skills-grid">
+        <div class="card">
+          <h3>Development</h3>
+          <p>Node.js · Python · TypeScript · REST · GraphQL</p>
+        </div>
+        <div class="card">
+          <h3>Blockchain</h3>
+          <p>On-chain analytics · Smart-contract reading · Etherscan/Block explorers</p>
+        </div>
+        <div class="card">
+          <h3>Data</h3>
+          <p>SQL · ETL · Pandas · Data visualization</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Selected Projects</h2>
+      <div class="grid projects-grid">
+        <article class="project">
+          <h3>On-chain Alerting Tool</h3>
+          <p>Real-time monitoring and slack alerts for suspicious token movements.</p>
+        </article>
+        <article class="project">
+          <h3>Analytics Dashboard</h3>
+          <p>Interactive dashboards tracking user cohorts and token flows.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>Interested in collaborating? Send a message below.</p>
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <div class="form-row">
+          <button class="btn btn-primary" type="submit">Send</button>
+          <button class="btn btn-outline" type="reset">Reset</button>
+        </div>
+        <p id="form-msg" class="form-msg" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer bg-orange">
+    <div class="container footer-inner">
+      <p>© 2026 Degenis Software Developer & Blockchain Analyst</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
